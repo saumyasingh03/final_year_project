@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import Webcam from "react-webcam";
 import "./App.css"
 
-REACT_APP_API_URL="https://visionvoice-wtd6.onrender.com"
+// REACT_APP_API_URL="https://visionvoice-wtd6.onrender.com"
 
 
 export default function App() {

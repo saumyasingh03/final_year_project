@@ -33,13 +33,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-device = "cpu"  # keep CPU only (Render free tier has no GPU)
+device = "cpu"
 
 @app.get("/")
 def home():
     return {"message": "Unified API for Face Emotion + Image Captioning 🚀"}
 
-# ---------------- GLOBALS (Lazy Init) ---------------- #
 face_model = None
 face_processor = None
 
@@ -53,7 +52,6 @@ train_classes = ['1Hundredrupeenote','2Hundredruppeenote','2Thousandruppeenote',
 
 translator = None
 
-# ---------------- UTILS ---------------- #
 def get_translator():
     global translator
     if translator is None:
@@ -91,7 +89,8 @@ def save_tts(caption, lang="en"):
     gTTS(caption, lang=lang).save(filepath)
     return f"/static/{filename}"
 
-# ---------------- ENDPOINTS ---------------- #
+
+# all the endpoints are here...
 @app.post("/recognize")
 async def recognize(file: UploadFile = File(...), language: str = Form("en")):
     global face_model, face_processor
@@ -208,8 +207,4 @@ async def get_audio(filename: str):
 if not os.path.exists("static"):
     os.makedirs("static")
 
-app.mount("/assets", StaticFiles(directory="frontend/dist/assets"), name="assets")
-
-@app.get("/{full_path:path}")
-async def serve_react(full_path: str):
-    return FileResponse("frontend/dist/index.html")
+# app.mount("/assets", StaticFiles(directory="frontend/dist/assets"), name="assets")
