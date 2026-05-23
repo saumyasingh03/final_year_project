@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const stats = [
   { number: "98.2%", label: "Accuracy Rate" },
   { number: "12+", label: "Languages" },

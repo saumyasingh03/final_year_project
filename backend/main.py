@@ -199,7 +199,7 @@ async def get_audio(filename: str):
     filepath = os.path.join("static", filename)
     if os.path.exists(filepath):
         return FileResponse(filepath, media_type="audio/mpeg", filename=filename)
-    return JSONResponse(content={"error": "File not found"}, status_code=404)
+    return JSONResponse(content={"errocd r": "File not found"}, status_code=404)
 
 
 if not os.path.exists("static"):
