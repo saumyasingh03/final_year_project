@@ -1,17 +1,17 @@
 import React from "react";
 
 const team = [
-  { name: "Arjun Sharma", role: "AI/ML Lead", avatar: "👨‍💻", desc: "Computer Vision & NLP specialist with 6+ years experience." },
-  { name: "Priya Verma", role: "Full Stack Developer", avatar: "👩‍💻", desc: "React & FastAPI expert, passionate about accessible tech." },
-  { name: "Rahul Singh", role: "UX Designer", avatar: "🧑‍🎨", desc: "Designs for accessibility first, beautiful interfaces second." },
-  { name: "Kavita Joshi", role: "Community Manager", avatar: "👩‍💼", desc: "Manages 328+ volunteers and ensures seamless user support." },
+  { name: "Saumya Shukla", role: "AI/ML Lead", avatar: "👨‍💻", desc: "Computer Vision & NLP specialist with 6+ years experience." },
+  { name: "Saumya Singh", role: "Full Stack Developer And AI/ML", avatar: "👩‍💻", desc: "React And AI/Ml passionate about accessible tech." },
+  { name: "Shubh Gupta", role: "React Development", avatar: "🧑‍🎨", desc: " Responsible UI development Of VisionVoice." },
+  { name: "Saurabh Kumar", role: "UX Designer", avatar: "👩‍💼", desc: " Responsible For The UX desigining." },
 ];
 
 const milestones = [
-  { year: "2023", event: "Project Inception", desc: "VisionVoice started as a college major project." },
-  { year: "2024 Q1", event: "First 100 Users", desc: "Launched beta version. Reached 100 active users in 3 weeks." },
-  { year: "2024 Q3", event: "Multi-language Support", desc: "Added Hindi, Spanish, French and 9 more languages." },
-  { year: "2025", event: "Volunteer Network", desc: "Launched live volunteer video-call support with 300+ volunteers." },
+  { year: "2025", event: "Project Inception", desc: "VisionVoice started as a college major project." },
+  { year: "2025 Q1", event: "First 100 Users", desc: " Completed survey Of Visuly Impaired People 76 in Initial 3 months." },
+  { year: "2025 Q3", event: "Multi-language Support", desc: "Added Hindi, English  languages." },
+  { year: "2026", event: "Volunteer Network", desc: "Launched live and Vidio Call Support." },
 ];
 
 export default function About() {
@@ -39,7 +39,7 @@ export default function About() {
 
         {/* Mission card */}
         <div className="glass" style={{ padding: "36px 32px" }}>
-          <div style={{ fontSize: "2.5rem", marginBottom: "16px" }}>🎯</div>
+          <div style={{ fontSize: "2.5rem", marginBottom: "16px" }}></div>
           <h2 style={{ fontFamily: "'Orbitron',monospace", fontSize: "1.1rem", fontWeight: 700, color: "#E8EEFF", marginBottom: "14px" }}>Our Mission</h2>
           <p style={{ color: "rgba(232,238,255,0.55)", fontSize: "0.88rem", lineHeight: 1.8, marginBottom: "20px" }}>
             To make the world fully accessible to visually impaired individuals through intelligent AI and a compassionate human support network — available 24/7, in any language.

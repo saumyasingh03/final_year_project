@@ -7,9 +7,9 @@ import Loader from "../components/Loader";
 
 const trustStats = [
   { icon: "🎯", number: "98.2%", label: "Accuracy Rate" },
-  { icon: "🌐", number: "12+", label: "Languages" },
+  { icon: "🌐", number: "2", label: "Languages" },
   { icon: "⚡", number: "<1.4s", label: "Response Time" },
-  { icon: "🧪", number: "500+", label: "Test Samples" },
+  { icon: "🧪", number: "100+", label: "Test Samples" },
   { icon: "♿", number: "100%", label: "Accessibility First" },
   { icon: "🕐", number: "24/7", label: "Support" },
 ];

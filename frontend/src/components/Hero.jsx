@@ -3,9 +3,9 @@ import React from "react";
 
 const stats = [
   { number: "98.2%", label: "Accuracy Rate" },
-  { number: "12+", label: "Languages" },
+  { number: "2", label: "Languages" },
   { number: "<1.4s", label: "Response Time" },
-  { number: "500+", label: "Test Samples" },
+  { number: "100+", label: "Test Samples" },
 ];
 
 const features = [

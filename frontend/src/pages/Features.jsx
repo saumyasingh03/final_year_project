@@ -130,7 +130,7 @@
 //       {/* CTA */}
 //       <section style={{ padding: "60px 40px", maxWidth: "700px", margin: "0 auto", textAlign: "center" }}>
 //         <div className="glass" style={{ padding: "48px 40px" }}>
-//           <div style={{ fontSize: "2.5rem", marginBottom: "16px" }}>🚀</div>
+//           <div style={{ fontSize: "2.5rem", marginBottom: "16px" }}></div>
 //           <h2 style={{ fontFamily: "'Orbitron',monospace", fontSize: "1.5rem", fontWeight: 700, color: "#E8EEFF", marginBottom: "12px" }}>
 //             Ready to Experience VisionVoice?
 //           </h2>
@@ -146,15 +146,6 @@
 //     </div>
 //   );
 // }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -336,7 +327,7 @@ export default function Features() {
                 e.currentTarget.style.boxShadow = "";
               }}
             >
-              {/* Top row */}
+              
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "16px" }}>
                 <div style={{
                   width: 52, height: 52, borderRadius: "14px",
@@ -384,7 +375,7 @@ export default function Features() {
       {/* CTA */}
       <section style={{ padding: "60px 40px", maxWidth: "700px", margin: "0 auto", textAlign: "center" }}>
         <div className="glass" style={{ padding: "48px 40px" }}>
-          <div style={{ fontSize: "2.5rem", marginBottom: "16px" }}>🚀</div>
+          <div style={{ fontSize: "2.5rem", marginBottom: "16px" }}></div>
           <h2 style={{ fontFamily: "'Orbitron',monospace", fontSize: "1.4rem", fontWeight: 700, color: "#E8EEFF", marginBottom: "12px" }}>
             Ready to Experience VisionVoice?
           </h2>
